@@ -1,0 +1,53 @@
+body{
+    font-family:"Roboto";
+    background-color: #212529;
+    font-weight:400
+}
+
+.bauCua{
+    color:#dc3545;
+    font-size:  3.5rem;
+    
+}
+
+.tienThuong{
+    background-color: #ffc107;
+    font-size: 25px;
+    border-radius: 10px;
+    border: 5px solid rgb(0, 0, 0);
+    padding: 1rem;
+    font-weight:400
+}
+
+.cuoc{
+    font-size:25px;
+}
+
+.cuoc button{
+    width: 35px;
+    height:40px;
+}
+
+.xoc img{
+    width:80px;
+}
+
+.xoc button{
+    font-size:30px;
+    width:100px
+}
+
+.shaking{ 
+    position: relative;
+
+    animation-name: shaking;
+    animation-duration: 3s;  
+}
+@keyframes shaking {
+    0%   {left:-100px;}
+    20%  {left: 100px;}
+    40%  {left: -100px;}
+    60%  {left: 100px;}
+    80%  {left: -100px;}
+    100%  {left:100px;}
+}
