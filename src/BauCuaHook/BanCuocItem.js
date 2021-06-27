@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import renderImage from '../ReduxHook/action/renderImage'
 import { useDispatch } from 'react-redux'
 

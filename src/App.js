@@ -1,5 +1,3 @@
-import logo from './logo.svg';
-
 import BauCuaHook from './BauCuaHook'
 
 function App() {

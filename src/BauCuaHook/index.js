@@ -1,6 +1,6 @@
-import React, {useEffect} from 'react'
+import React from 'react'
 import BanCuoc from './BanCuoc'
-import {useSelector, useDispatch} from 'react-redux'
+import {useSelector} from 'react-redux'
 
 export default function BauCuaHook() {
     const {tongTien} = useSelector((state) => state.bauCuaReducer)
